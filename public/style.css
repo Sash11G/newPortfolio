@@ -45,7 +45,7 @@ main {
   margin: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
+
   height: 100%;
 }
 
@@ -72,6 +72,7 @@ main {
   background: var(--bg-secondary);
   color: var(--text-secondary);
 }
+
 
 .link-text {
   display: none;
@@ -118,6 +119,7 @@ main {
 {
   display: inline;
   position: absolute;
+  margin-left: 3rem;
   left: -999px;
   transition: var(--transition-speed);
 }
@@ -150,6 +152,8 @@ main {
     margin: 0;
   }
 }
+
+
 
 /* Large screens */
 @media only screen and (min-width: 600px) {
